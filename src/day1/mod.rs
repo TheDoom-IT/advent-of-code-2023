@@ -24,11 +24,10 @@ pub fn main() {
         let first_digit = digits.first().expect("Every row should have a digit");
         let last_digit = digits.last().expect("Every row should have a digit");
         let calibration_value = first_digit * 10 + last_digit;
-        println!("{}: {}", line, calibration_value);
         sum += calibration_value;
     }
 
-    println!("Sum: {}", sum);
+    println!("Task 2: {}", sum);
 }
 
 // first part: 56506
