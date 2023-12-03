@@ -5,6 +5,7 @@ Solutions to Advent of Code 2023 in Rust.
 |-----|---------------|
 | 1   | :star: :star: |
 | 2   | :star: :star: |
+| 3   | :star: :star: |
 
 # How to run?
 ```bash
