@@ -3,6 +3,7 @@ use std::env;
 mod day1;
 mod day2;
 mod day3;
+mod day4;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -18,6 +19,7 @@ fn main() {
         1 => day1::main(),
         2 => day2::main(),
         3 => day3::main(),
+        4 => day4::main(),
         _ => println!("Day {} not implemented yet", day_number),
     }
 }
