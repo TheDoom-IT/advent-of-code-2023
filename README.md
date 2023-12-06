@@ -7,6 +7,9 @@ Solutions to Advent of Code 2023 in Rust.
 | 2   | :star: :star: |
 | 3   | :star: :star: |
 | 4   | :star: :star: |
+| 5   | :star: :star: |
+| 6   | :star: :star: |
+
 
 
 # How to run?
