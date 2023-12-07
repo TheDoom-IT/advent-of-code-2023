@@ -81,7 +81,7 @@ fn get_number_from_line(line: &str) -> u64 {
     let number = line_split[1].replace(" ", "").parse::<u64>();
     match number {
         Ok(number) => number,
-        Err(e) => {
+        Err(_) => {
             panic!("Invalid input")
         }
     }
